@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 2.0f; // Speed of movement
     public float checkSpeed = 0.1f;
     public LevelController levelController;
+    public GhostMovement ghostMovement;
 
     private Vector2 pos; // For movement
     private Vector2? nextPos;
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
             }
             yield return new WaitForSeconds(checkSpeed);
         }
+        ghostMovement.resetSteps();
     }
 
     IEnumerator Move(){
