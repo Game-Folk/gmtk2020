@@ -1,50 +1,29 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 2.0f; // Speed of movement
-    public float checkSpeed = 0.1f;
-    public LevelController levelController;
-
-    private Vector2 pos; // For movement
-    private Vector2? nextPos;
-    private bool moving = false;
+    private Vector3 pos; // For movement
     
     void Start () {
         pos = transform.position; // Take the initial position
     }
-
-    public void startMovement(){
-        // dequeue a pos until queue empty
-        findNextPos();
-        StartCoroutine("processQueue");
-    }
-
-    void findNextPos(){
-        nextPos = levelController.dequeueMove();
-        if(nextPos != null){
-            pos = (Vector2)nextPos;
+ 
+    void FixedUpdate () {
+        if(Input.GetKey(KeyCode.A) && transform.position == pos) {        // Left
+            pos += Vector3.left;
         }
-    }
-
-    IEnumerator processQueue(){
-        while(nextPos != null){ 
-            if(moving == false){
-                moving = true;
-                StartCoroutine("Move");
-            }
-            yield return new WaitForSeconds(checkSpeed);
+        if(Input.GetKey(KeyCode.D) && transform.position == pos) {        // Right
+            pos += Vector3.right;
         }
-    }
-
-    IEnumerator Move(){
-        while( (Vector2)transform.position != pos ){
-            // Move there
-            transform.position = Vector2.MoveTowards(transform.position, (Vector2)pos, Time.deltaTime * speed);  
-            yield return null;
+        if(Input.GetKey(KeyCode.W) && transform.position == pos) {        // Up
+            pos += Vector3.up;
         }
-        findNextPos();
-        moving = false;
+        if(Input.GetKey(KeyCode.S) && transform.position == pos) {        // Down
+            pos += Vector3.down;
+        }
+        transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);    // Move there
     }
 }
