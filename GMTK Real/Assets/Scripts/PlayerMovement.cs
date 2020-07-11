@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 pos; // For movement
     private Vector2? nextPos;
     private bool moving = false;
+    private bool emptyingQueue = false;
     
     void Start () {
         pos = transform.position; // Take the initial position
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void startMovement(){
         // dequeue a pos until queue empty
+        emptyingQueue = true;
         findNextPos();
         StartCoroutine("processQueue");
     }
@@ -29,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public bool isMoving(){
+        return emptyingQueue;
+    }
+
     IEnumerator processQueue(){
         while(nextPos != null){ 
             if(moving == false){
@@ -38,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
             yield return new WaitForSeconds(checkSpeed);
         }
         ghostMovement.resetSteps();
+        levelController.resetSteps();
+        emptyingQueue = false;
     }
 
     IEnumerator Move(){
