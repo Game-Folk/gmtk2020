@@ -4,10 +4,40 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
+    public int stepsAllowed = 15;
+    public GridLayout gridLayout;
+    public PlayerMovement playerMovement;
+    // numberList has to match stepsAllowed, but 15 is required to show in inspector
+    public GameObject[] numbers = new GameObject[15];
+
+    private Camera cam;
     private LinkedList<Vector2> moveQueue;
+    private int stepCount = 0;
+    private GameObject[] numbersInstantiated;
 
     void Start(){
+        gridLayout = (GridLayout)FindObjectOfType(typeof(GridLayout));
+        playerMovement = (PlayerMovement)FindObjectOfType(typeof(PlayerMovement));
+        cam = Camera.main;
         moveQueue = new LinkedList<Vector2>();
+        numbersInstantiated = new GameObject[stepsAllowed];
+    }
+
+    void Update(){
+        if (Input.GetMouseButtonDown(0) && !playerMovement.isMoving()){ // left click
+            // convert click coords to cell, and then to the center of the cell
+            Vector2 clickPos = cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector3Int cellPosition = gridLayout.WorldToCell(clickPos);
+            clickPos = (Vector2)gridLayout.CellToWorld(cellPosition) + new Vector2(0.5f,0.5f);
+
+            // store the instantiated numbers
+            numbersInstantiated[stepCount] = Instantiate(numbers[stepCount], clickPos, Quaternion.identity);
+            
+            // queue the movements
+            enqueueMove(clickPos);
+
+            stepCount++;
+        }
     }
 
     /*
@@ -32,6 +62,15 @@ public class LevelController : MonoBehaviour
 
         moveQueue.RemoveFirst();
         return v.Value;
+    }
+
+    public void resetSteps(){
+        stepCount = 0;
+
+        // delete numbers
+        for(int i = 0; i < numbersInstantiated.Length; i++){
+            Destroy(numbersInstantiated[i]);
+        }
     }
 
 }
