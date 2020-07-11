@@ -52,5 +52,7 @@
         "ProjectSettings/":true,
         "temp/":true,
         "Temp/":true
-    }
+    },
+    "editor.codeLens": false,
+    "typescript.referencesCodeLens.enabled": true
 }
