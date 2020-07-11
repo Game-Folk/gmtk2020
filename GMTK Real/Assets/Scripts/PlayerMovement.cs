@@ -1,29 +1,52 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 2.0f; // Speed of movement
-    private Vector3 pos; // For movement
+    public float checkSpeed = 0.1f;
+    public LevelController levelController;
+    public GhostMovement ghostMovement;
+
+    private Vector2 pos; // For movement
+    private Vector2? nextPos;
+    private bool moving = false;
     
     void Start () {
         pos = transform.position; // Take the initial position
     }
- 
-    void FixedUpdate () {
-        if(Input.GetKey(KeyCode.A) && transform.position == pos) {        // Left
-            pos += Vector3.left;
+
+    public void startMovement(){
+        // dequeue a pos until queue empty
+        findNextPos();
+        StartCoroutine("processQueue");
+    }
+
+    void findNextPos(){
+        nextPos = levelController.dequeueMove();
+        if(nextPos != null){
+            pos = (Vector2)nextPos;
         }
-        if(Input.GetKey(KeyCode.D) && transform.position == pos) {        // Right
-            pos += Vector3.right;
+    }
+
+    IEnumerator processQueue(){
+        while(nextPos != null){ 
+            if(moving == false){
+                moving = true;
+                StartCoroutine("Move");
+            }
+            yield return new WaitForSeconds(checkSpeed);
         }
-        if(Input.GetKey(KeyCode.W) && transform.position == pos) {        // Up
-            pos += Vector3.up;
+        ghostMovement.resetSteps();
+    }
+
+    IEnumerator Move(){
+        while( (Vector2)transform.position != pos ){
+            // Move there
+            transform.position = Vector2.MoveTowards(transform.position, (Vector2)pos, Time.deltaTime * speed);  
+            yield return null;
         }
-        if(Input.GetKey(KeyCode.S) && transform.position == pos) {        // Down
-            pos += Vector3.down;
-        }
-        transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);    // Move there
+        findNextPos();
+        moving = false;
     }
 }
