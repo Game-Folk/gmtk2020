@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using Pathfinding;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float checkSpeed = 0.1f;
     public LevelController levelController;
     public GhostMovement ghostMovement;
+    public AIPath aIPath;
+    public AIDestinationSetter aIDestinationSetter;
 
     private Vector2 pos; // For movement
     private Vector2? nextPos;
@@ -14,13 +17,14 @@ public class PlayerMovement : MonoBehaviour
     private bool emptyingQueue = false;
     
     void Start () {
+        levelController = (LevelController)FindObjectOfType(typeof(LevelController));
         pos = transform.position; // Take the initial position
     }
 
     public void startMovement(){
         // dequeue a pos until queue empty
         emptyingQueue = true;
-        findNextPos();
+        //findNextPos();
         StartCoroutine("processQueue");
     }
 
@@ -36,19 +40,33 @@ public class PlayerMovement : MonoBehaviour
     }
 
     IEnumerator processQueue(){
-        while(nextPos != null){ 
+        GameObject[] numbers = levelController.returnNumbers();
+        int numOfNumbers = levelController.returnNumOfNumbers();
+        for(int i = 0; i < numOfNumbers; i++){
+            print(i);
+            aIDestinationSetter.target = numbers[i].transform;
+            print("set");
+            while(!aIPath.reachedEndOfPath){
+                yield return new WaitForSeconds(checkSpeed);
+            }
+        }
+        /*while(nextPos != null){ 
             if(moving == false){
                 moving = true;
                 StartCoroutine("Move");
             }
             yield return new WaitForSeconds(checkSpeed);
-        }
+        }*/
         ghostMovement.resetSteps();
         levelController.resetSteps();
         emptyingQueue = false;
     }
 
     IEnumerator Move(){
+        /*while( !aIPath.TargetReached ){
+            aIDestinationSetter.target = (Vector2)pos;
+            yield return new WaitForSeconds(checkSpeed);
+        }*/
         while( (Vector2)transform.position != pos ){
             // Move there
             transform.position = Vector2.MoveTowards(transform.position, (Vector2)pos, Time.deltaTime * speed);  

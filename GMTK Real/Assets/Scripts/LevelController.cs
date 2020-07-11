@@ -64,6 +64,13 @@ public class LevelController : MonoBehaviour
         return v.Value;
     }
 
+    public GameObject[] returnNumbers(){
+        return numbersInstantiated;
+    }
+    public int returnNumOfNumbers(){
+        return stepCount;
+    }
+
     public void resetSteps(){
         stepCount = 0;
 

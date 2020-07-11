@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - Background
-  - 
-  - 
+  - Middle
+  - Foreground
   - 
   - 
   - 
@@ -41,9 +41,15 @@ TagManager:
   - name: Background
     uniqueID: 3177774597
     locked: 0
+  - name: Obstacles
+    uniqueID: 1072592065
+    locked: 0
   - name: GroundNumbers
     uniqueID: 3385094953
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1063191833
     locked: 0

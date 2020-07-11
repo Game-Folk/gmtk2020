@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951576469260405944}
   - component: {fileID: 1951576469260405945}
+  - component: {fileID: 2100256398}
   m_Layer: 0
   m_Name: LevelController
   m_TagString: Untagged
@@ -44,6 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepsAllowed: 15
+  gridLayout: {fileID: 0}
+  playerMovement: {fileID: 1361471732351073714, guid: c8983d4d9389b0a43a33e36da15f47b4,
+    type: 3}
   numbers:
   - {fileID: 2382277897904197546, guid: d94775a0e0d501a42af999ae4f8fdf01, type: 3}
   - {fileID: 7864786913272111260, guid: a307b80cb6ca57e428cd79254c3139dd, type: 3}
@@ -60,3 +64,58 @@ MonoBehaviour:
   - {fileID: 7746223491921281075, guid: 74603c371053c7445975650e23ed4c2d, type: 3}
   - {fileID: 8857450554150833673, guid: 0df165e5e65a50a4f8f7125134033e50, type: 3}
   - {fileID: 1891221299140904610, guid: db32c5867e875fd49bc7d4740d1e0e8c, type: 3}
+--- !u!114 &2100256398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951576469260405946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACAn+tcFCpvbQIAABoFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMly4jAQ/RVK54GyTQjx3GaAkDlkqTBTufgirDZWIUsuLQGS4t+nJdvYIb5Y7tfL69ctfxIuTQ25VXqtOXtUDMjPEfFn8mPUgw9wpDslN/wDOp83zmzpnWjweaWWK7THPsyoCqzm+S+5E945QqOTvFC6WrEdLJSxBs0FFQYQ0sr6aImmzxE54muc+pATnpK5P33gKY1GZzzmIC3o3rVzHKeT6CaKpnercTRvQ+LJLLm9m93O4tU4vgnhTuaCVjUw30ufJZ5PUv/cxW26uKkmsdvWM5pMm8eTUEJw01Im9lQHSTZ1CRq8JoxTVCDQ9AlL4LvS+m6Gsc9FYcC2LWh6WnKNQjZJyW/VqFtRs29ovlPhfJlZnARqTdLHb/g4DnChVfXQ1Y0jX8OWPN+/0lNOjR3IPzQvvxJ38kDFnm4FvJUgn9RaKycZglY7H+oMJMv+89LaooR839sbqldGV38fYjdr38M5dH9cCF5tg/w3jWEjVJA7rAhoHNAfJBwWyLQp0OpZ/DPwl+6Gm9YC91wbi1DbpfT0tspp70pWQTPfjbMLpSUEc0u6BkmFPb1gGns9witsUPYKuaf+TrXFW6y7Klchwdz7R9EV9KIOl2GZUh0ewZTPzgouoSftgSfUaaGkbDZsqEkXtnG6oPkgbOc4+7paJNlu58m0SBO6zRmjxTidJWnMEjalEcNXQcLucYl9UvHSEG3lwanJPrnEPet+NaO1pnXYdqbpYc0/KjWQnMtCbXINIJ+bDBfioLEIXk62YhwF2oC1XIZ5k8+MCJXvgWWXRFnodHW0mmZ9lozU/F1Zb8nIIvxbMnIm5/9QSwMEFAAACAgAAICf69jVED1sAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJJRUpK5kXGapVFiUnJKSmKarqWpkaVhilGKcaJBCpBKU4oFqi+pLEj1S8xNhegJSCzJSMvMS8nMS9dzL8pMcQcZrRRbCwBQSwECLQAUAAAICAAAgJ/rXBQqb20CAAAaBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAgJ/r2NUQPWwAAAB4AAAACQAkAAAAAAAAAAAAAAC6AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHEDAAAAAA==
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1

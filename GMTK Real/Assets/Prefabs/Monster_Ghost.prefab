@@ -96,7 +96,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   stepsAllowed: 15
-  levelController: {fileID: 0}
+  levelController: {fileID: 1951576469260405945, guid: 07bf1b2f894b86f41b94c5a631267c70,
+    type: 3}
   numbersList:
   - {fileID: 2382277897904197546, guid: d94775a0e0d501a42af999ae4f8fdf01, type: 3}
   - {fileID: 7864786913272111260, guid: a307b80cb6ca57e428cd79254c3139dd, type: 3}
