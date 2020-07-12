@@ -26,6 +26,51 @@ TextureImporter:
   - first:
       213: -2927586076960042206
     second: spr_sht_metalWall_7
+  - first:
+      213: 4539372981842415152
+    second: spr_sht_metalWall_0
+  - first:
+      213: -3309662131348922752
+    second: spr_sht_metalWall_1
+  - first:
+      213: -4426705153933091193
+    second: spr_sht_metalWall_2
+  - first:
+      213: 7331565674912551858
+    second: spr_sht_metalWall_3
+  - first:
+      213: -3625490452045563124
+    second: spr_sht_metalWall_4
+  - first:
+      213: -7446219522022973652
+    second: spr_sht_metalWall_5
+  - first:
+      213: -2288080610466969344
+    second: spr_sht_metalWall_6
+  - first:
+      213: -5542748534522716266
+    second: spr_sht_metalWall_7
+  - first:
+      213: 8368412065878989380
+    second: spr_sht_metalWall_8
+  - first:
+      213: -3091228587110483670
+    second: spr_sht_metalWall_9
+  - first:
+      213: -2715863418433956144
+    second: spr_sht_metalWall_10
+  - first:
+      213: 5716812462828459103
+    second: spr_sht_metalWall_11
+  - first:
+      213: -168806793819329394
+    second: spr_sht_metalWall_12
+  - first:
+      213: -2835668113985917635
+    second: spr_sht_metalWall_13
+  - first:
+      213: 457989155405393694
+    second: spr_sht_metalWall_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,22 +160,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 288
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 814bfa58756726910800000000000000
-      internalID: 1829154516942959640
+      spriteID: 03e09b52da71ffe30800000000000000
+      internalID: 4539372981842415152
       vertices: []
       indices: 
       edges: []
@@ -140,22 +181,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 288
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89781c69bbe15b860800000000000000
-      internalID: 7544970541766117272
+      spriteID: 08e926ea3d7b112d0800000000000000
+      internalID: -3309662131348922752
       vertices: []
       indices: 
       edges: []
@@ -165,22 +202,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 288
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8ac6c46dd978b70800000000000000
-      internalID: 8901256732251826409
+      spriteID: 78e5d6ebd1f2192c0800000000000000
+      internalID: -4426705153933091193
       vertices: []
       indices: 
       edges: []
@@ -189,23 +222,19 @@ TextureImporter:
       name: spr_sht_metalWall_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 96
+        y: 288
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc917983196db7180800000000000000
-      internalID: -9116457101473408565
+      spriteID: 2b31c941324feb560800000000000000
+      internalID: 7331565674912551858
       vertices: []
       indices: 
       edges: []
@@ -214,23 +243,19 @@ TextureImporter:
       name: spr_sht_metalWall_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 0
+        y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d22a211cb547270800000000000000
-      internalID: 8247317702421654784
+      spriteID: c0bf04d74abafadc0800000000000000
+      internalID: -3625490452045563124
       vertices: []
       indices: 
       edges: []
@@ -239,23 +264,19 @@ TextureImporter:
       name: spr_sht_metalWall_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 64
+        y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f784142ef3000ad20800000000000000
-      internalID: 3287628002359330943
+      spriteID: c2fdd36ebc6b9a890800000000000000
+      internalID: -7446219522022973652
       vertices: []
       indices: 
       edges: []
@@ -264,23 +285,19 @@ TextureImporter:
       name: spr_sht_metalWall_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 96
+        y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10f9cb65019e3fd0800000000000000
-      internalID: -2360289702226300901
+      spriteID: 00948abbeca1f30e0800000000000000
+      internalID: -2288080610466969344
       vertices: []
       indices: 
       edges: []
@@ -289,23 +306,166 @@ TextureImporter:
       name: spr_sht_metalWall_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 160
+        y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223da6959ff1f57d0800000000000000
-      internalID: -2927586076960042206
+      spriteID: 69fd47813933413b0800000000000000
+      internalID: -5542748534522716266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a5fc8af62922470800000000000000
+      internalID: 8368412065878989380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a293fb16affb915d0800000000000000
+      internalID: -3091228587110483670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d614c53c905f4ad0800000000000000
+      internalID: -2715863418433956144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f549a6e55a2365f40800000000000000
+      internalID: 5716812462828459103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce9ba8d1748adf0800000000000000
+      internalID: -168806793819329394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3da7f4dfdea5a8d0800000000000000
+      internalID: -2835668113985917635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f6be6d5ba1b5600800000000000000
+      internalID: 457989155405393694
       vertices: []
       indices: 
       edges: []
