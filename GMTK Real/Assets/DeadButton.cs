@@ -16,7 +16,7 @@ public class DeadButton : MonoBehaviour
     }
     public void restartGame()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void test()
     {
