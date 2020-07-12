@@ -3215,12 +3215,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4319577449766947296}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &889867002 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1631567557272599007, guid: 54bcb72584c4d764e872574ab13fb5f8,
-    type: 3}
-  m_PrefabInstance: {fileID: 966481754}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &902732093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1317331781260702820, guid: 54bcb72584c4d764e872574ab13fb5f8,
@@ -3342,8 +3336,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12c504f1982fe047bd16bb223c1b4a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guard: {fileID: 889867002}
+  guards: []
   MoveSpeed: 0.2
+  anim: {fileID: 0}
+  checkTime: 0.1
+  checkDistance: 0.1
+  key: {fileID: 0}
+  doorToOpen: {fileID: 0}
 --- !u!1001 &966481754
 PrefabInstance:
   m_ObjectHideFlags: 0
