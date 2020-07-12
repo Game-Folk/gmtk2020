@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class DoorOpener : MonoBehaviour
 {
+    public Collider2D collider;
     [Header("Must Be Setup")]
-    public Animator animator;
+    public Animator doorAnimator;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void OpenDoor(){
+        doorAnimator.SetBool("Opened", true);
+        collider.enabled = false;
     }
 }

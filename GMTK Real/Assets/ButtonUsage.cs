@@ -10,6 +10,7 @@ public class ButtonUsage : MonoBehaviour
     
     [Header("Must Be Setup")]
     public GameObject monster;
+    public DoorOpener doorToOpen;
     
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,6 @@ public class ButtonUsage : MonoBehaviour
         }
         // button pressed
         animator.SetBool("Pressed", true);
+        doorToOpen.OpenDoor();
     }
 }
