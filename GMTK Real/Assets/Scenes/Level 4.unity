@@ -4613,6 +4613,11 @@ PrefabInstance:
       propertyPath: guards.Array.data[2]
       value: 
       objectReference: {fileID: 1254446959}
+    - target: {fileID: 3447984386189366705, guid: 09e6ac6bf048b8649a8320bc416b73d2,
+        type: 3}
+      propertyPath: MoveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e6ac6bf048b8649a8320bc416b73d2, type: 3}
 --- !u!1 &1649207836
@@ -4994,6 +4999,11 @@ PrefabInstance:
       propertyPath: guards.Array.data[2]
       value: 
       objectReference: {fileID: 1254446959}
+    - target: {fileID: 3447984386189366705, guid: 09e6ac6bf048b8649a8320bc416b73d2,
+        type: 3}
+      propertyPath: MoveSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e6ac6bf048b8649a8320bc416b73d2, type: 3}
 --- !u!1 &1763199225
