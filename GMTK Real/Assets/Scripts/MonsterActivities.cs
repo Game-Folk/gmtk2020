@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MonsterActivities : MonoBehaviour
 {
-
-
+    public AudioSource _audioSource;
+    public GameObject bloodBoom;
     public GameObject[] guards;
     public float MoveSpeed;
     public Animator anim;
@@ -77,8 +77,27 @@ public class MonsterActivities : MonoBehaviour
         if (collision.gameObject.tag == "Guard")
         {
             Debug.Log("yes");
+            PlayMusic();
+            Instantiate(bloodBoom, collision.gameObject.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
-            Destroy(this.gameObject);
+            this.transform.position += new Vector3(500,0,0);
+            Destroy(this.gameObject, 5f);
+        } else if (collision.gameObject.name == "Guardbutt"){
+            PlayMusic();
+            Instantiate(bloodBoom, collision.gameObject.transform.position, Quaternion.identity);
+            Destroy(collision.gameObject.transform.parent.gameObject);
+            this.transform.position += new Vector3(500,0,0);
+            Destroy(this.gameObject, 5f);
         }
+    }
+
+    public void PlayMusic()
+    {
+        _audioSource.Play();
+    }
+
+    public void StopMusic()
+    {
+        _audioSource.Stop();
     }
 }
