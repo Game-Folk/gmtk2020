@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  distanceFromTargetToStop: 0.1
   checkSpeed: 0.1
   levelController: {fileID: 0}
   ghostMovement: {fileID: 4121486393311057531, guid: b754f3c7a6bb5684691adffb4cebd806,
@@ -151,7 +152,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
+  m_Size: {x: 0.08, y: 0.08}
   m_EdgeRadius: 0
 --- !u!114 &1361471731986890020
 MonoBehaviour:
