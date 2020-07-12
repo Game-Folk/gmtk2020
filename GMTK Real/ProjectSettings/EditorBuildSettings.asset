@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: b2de12c91fa720d4d9daaab46695ca22
   - enabled: 1
-    path: Assets/Scenes/JohnsBettrerGame.unity
+    path: Assets/Scenes/Level 3.unity
     guid: 93a05fdafa5029d498b01b4e1762e17a
   m_configObjects: {}

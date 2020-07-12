@@ -22,6 +22,14 @@ public class PlayerMovement : MonoBehaviour
         pos = transform.position; // Take the initial position
     }
 
+    void Update(){
+        if(aIPath.velocity.x < 0){
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        } else if( aIPath.velocity.x > 0) {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+    }
+
     public void startMovement(){
         if(isMoving()){ // don't start dequeueing movements again until finished dequeueing
             return;
