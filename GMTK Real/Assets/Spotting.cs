@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Spotting : MonoBehaviour
 {
-
+    public GameObject button;
 
 
   
@@ -25,12 +25,12 @@ public class Spotting : MonoBehaviour
             Debug.Log("MONSTER SPOTTED");
             Destroy(collision.gameObject);
 
-            //GameObject button = GameObject.FindWithTag("Dead");
             
-            //button.SetActive(true);
+            
+            button.SetActive(true);
 
             
-            toMenu();
+            //toMenu();
         }
     }
     void OnCollisionExit2D(Collision2D collision)
