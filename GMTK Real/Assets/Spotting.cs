@@ -24,11 +24,12 @@ public class Spotting : MonoBehaviour
         {
             Debug.Log("MONSTER SPOTTED");
             Destroy(collision.gameObject);
-            GameObject button = new GameObject();
-            //button.AddComponent<Button>();
-           // button.transform.position = new Vector3(0,0,0);
-           // button.GetComponent<Button>().transform.localScale = new Vector3(3, 3, 3);
-           // button.GetComponent<Button>().onClick.AddListener(toMenu);
+
+            //GameObject button = GameObject.FindWithTag("Dead");
+            
+            //button.SetActive(true);
+
+            
             toMenu();
         }
     }
