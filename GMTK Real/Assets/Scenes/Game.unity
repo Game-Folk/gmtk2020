@@ -6560,11 +6560,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: spr_sht_guard_0
       objectReference: {fileID: 0}
-    - target: {fileID: 5091186361054362950, guid: 54bcb72584c4d764e872574ab13fb5f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5344101719955332148, guid: 54bcb72584c4d764e872574ab13fb5f8,
         type: 3}
       propertyPath: button

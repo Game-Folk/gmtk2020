@@ -3,15 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MusicController : MonoBehaviour
-{
-    private AudioSource _audioSource;
-    private void Awake()
+{   
+    //private AudioSource _audioSource;
+    private static MusicController instance = null;
+    public static MusicController Instance
     {
-        DontDestroyOnLoad(transform.gameObject);
-        _audioSource = GetComponent<AudioSource>();
+        get { return instance; }
+    }
+    void Awake()
+    {
+        if (instance != null && instance != this) {
+            Destroy(this.gameObject);
+            return;
+        } else {
+            instance = this;
+        }
+        DontDestroyOnLoad(this.gameObject);
     }
 
-    public void PlayMusic()
+    /*public void PlayMusic()
     {
         if (_audioSource.isPlaying) return;
         _audioSource.Play();
@@ -20,5 +30,5 @@ public class MusicController : MonoBehaviour
     public void StopMusic()
     {
         _audioSource.Stop();
-    }
+    }*/
 }
