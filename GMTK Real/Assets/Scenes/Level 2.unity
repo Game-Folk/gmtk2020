@@ -2369,7 +2369,7 @@ GameObject:
   - component: {fileID: 1989441691}
   - component: {fileID: 1989441692}
   m_Layer: 0
-  m_Name: Point Light 2D (3)
+  m_Name: lamplight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2383,11 +2383,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989441690}
   m_LocalRotation: {x: -0, y: -0, z: -0.7041129, w: 0.710088}
-  m_LocalPosition: {x: -15.27, y: -1.2, z: 0}
-  m_LocalScale: {x: 0.74678534, y: -2.617764, z: 1}
+  m_LocalPosition: {x: -7.800001, y: 0.3499999, z: 0}
+  m_LocalScale: {x: 0.7467853, y: -2.6177635, z: 1}
   m_Children: []
-  m_Father: {fileID: 176351616}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &1989441692
 MonoBehaviour:
