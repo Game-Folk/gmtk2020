@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 pos; // For movement
     private Vector2? nextPos;
-    private bool moving = false;
+    //private bool moving = false;
     private bool emptyingQueue = false;
     
     void Start () {
@@ -23,6 +23,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void startMovement(){
+        if(isMoving()){ // don't start dequeueing movements again until finished dequeueing
+            return;
+        }
+
         // dequeue a pos until queue empty
         emptyingQueue = true;
         //findNextPos();
@@ -61,11 +65,11 @@ public class PlayerMovement : MonoBehaviour
         emptyingQueue = false;
     }
 
-    IEnumerator Move(){
-        /*while( !aIPath.TargetReached ){
-            aIDestinationSetter.target = (Vector2)pos;
-            yield return new WaitForSeconds(checkSpeed);
-        }*/
+    /*IEnumerator Move(){
+        //while( !aIPath.TargetReached ){
+        //    aIDestinationSetter.target = (Vector2)pos;
+        //    yield return new WaitForSeconds(checkSpeed);
+        //}
         while( (Vector2)transform.position != pos ){
             // Move there
             transform.position = Vector2.MoveTowards(transform.position, (Vector2)pos, Time.deltaTime * speed);  
@@ -73,5 +77,5 @@ public class PlayerMovement : MonoBehaviour
         }
         findNextPos();
         moving = false;
-    }
+    }*/
 }

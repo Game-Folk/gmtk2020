@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class LevelController : MonoBehaviour
 {
@@ -25,6 +26,10 @@ public class LevelController : MonoBehaviour
 
     void Update(){
         if (Input.GetMouseButtonDown(0) && !playerMovement.isMoving()){ // left click
+            if(EventSystem.current.IsPointerOverGameObject()){
+                return;
+            }
+
             // convert click coords to cell, and then to the center of the cell
             Vector2 clickPos = cam.ScreenToWorldPoint(Input.mousePosition);
             Vector3Int cellPosition = gridLayout.WorldToCell(clickPos);

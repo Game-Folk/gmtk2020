@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1951576469260405944}
   - component: {fileID: 1951576469260405945}
   - component: {fileID: 2100256398}
+  - component: {fileID: 6229514920166036424}
   m_Layer: 0
   m_Name: LevelController
   m_TagString: Untagged
@@ -91,7 +92,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
+  logPathResults: 4
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0
@@ -110,7 +111,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 1
+  maxFrameTime: 10
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
   euclideanEmbedding:
@@ -119,3 +120,15 @@ MonoBehaviour:
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
   showGraphs: 1
+--- !u!114 &6229514920166036424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951576469260405946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14cc1ffdad4a4441816e6ee100e26a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
