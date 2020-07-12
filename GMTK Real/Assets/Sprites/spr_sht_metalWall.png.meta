@@ -373,8 +373,8 @@ TextureImporter:
       name: spr_sht_metalWall_7
       rect:
         serializedVersion: 2
-        x: 211
-        y: 219
+        x: 160
+        y: 256
         width: 32
         height: 32
       alignment: 0
