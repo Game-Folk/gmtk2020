@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 1782ad0ebfc5a9b428aaf9457a7c0a89
 TextureImporter:
   internalIDToNameTable:
@@ -28,6 +27,36 @@ TextureImporter:
       213: -2927586076960042206
     second: spr_sht_metalWall_7
   - first:
+      213: 8368412065878989380
+    second: spr_sht_metalWall_8
+  - first:
+      213: -3091228587110483670
+    second: spr_sht_metalWall_9
+  - first:
+      213: -2715863418433956144
+    second: spr_sht_metalWall_10
+  - first:
+      213: 5716812462828459103
+    second: spr_sht_metalWall_11
+  - first:
+      213: -168806793819329394
+    second: spr_sht_metalWall_12
+  - first:
+      213: -2835668113985917635
+    second: spr_sht_metalWall_13
+  - first:
+      213: 457989155405393694
+    second: spr_sht_metalWall_14
+  - first:
+      213: 8874630689464422615
+    second: spr_sht_metalWall_15
+  - first:
+      213: -6145922303603655777
+    second: spr_sht_metalWall_16
+  - first:
+      213: 1553104766083159130
+    second: spr_sht_metalWall_17
+  - first:
       213: 4539372981842415152
     second: spr_sht_metalWall_0
   - first:
@@ -52,31 +81,35 @@ TextureImporter:
       213: -5542748534522716266
     second: spr_sht_metalWall_7
   - first:
-      213: 8368412065878989380
+      213: 8213419139722092689
     second: spr_sht_metalWall_8
   - first:
-      213: -3091228587110483670
+      213: -5057907169824519607
     second: spr_sht_metalWall_9
   - first:
-      213: -2715863418433956144
+      213: -6634729774161152776
     second: spr_sht_metalWall_10
   - first:
-      213: 5716812462828459103
+      213: -6405938345590636164
     second: spr_sht_metalWall_11
   - first:
-      213: -168806793819329394
+      213: 1692910559318272131
     second: spr_sht_metalWall_12
   - first:
-      213: -2835668113985917635
+      213: -2563863705669981919
     second: spr_sht_metalWall_13
   - first:
-      213: 457989155405393694
+      213: -3040001983782233532
     second: spr_sht_metalWall_14
-=======
-guid: ed023e6dc67a6a04db74429e84e90837
-TextureImporter:
-  internalIDToNameTable: []
->>>>>>> master
+  - first:
+      213: 386760177219208287
+    second: spr_sht_metalWall_15
+  - first:
+      213: -65233458377356033
+    second: spr_sht_metalWall_16
+  - first:
+      213: 3823096051611166428
+    second: spr_sht_metalWall_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,24 +144,16 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
   spritePixelsToUnits: 32
-=======
-  spritePixelsToUnits: 100
->>>>>>> master
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,27 +165,26 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -353,8 +377,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a5fc8af62922470800000000000000
-      internalID: 8368412065878989380
+      spriteID: 190a786e03debf170800000000000000
+      internalID: 8213419139722092689
       vertices: []
       indices: 
       edges: []
@@ -374,8 +398,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a293fb16affb915d0800000000000000
-      internalID: -3091228587110483670
+      spriteID: 94a45bb1a34bec9b0800000000000000
+      internalID: -5057907169824519607
       vertices: []
       indices: 
       edges: []
@@ -395,8 +419,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d614c53c905f4ad0800000000000000
-      internalID: -2715863418433956144
+      spriteID: 8f4ba663c64bce3a0800000000000000
+      internalID: -6634729774161152776
       vertices: []
       indices: 
       edges: []
@@ -416,8 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f549a6e55a2365f40800000000000000
-      internalID: 5716812462828459103
+      spriteID: c71440ac3098917a0800000000000000
+      internalID: -6405938345590636164
       vertices: []
       indices: 
       edges: []
@@ -437,8 +461,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8ce9ba8d1748adf0800000000000000
-      internalID: -168806793819329394
+      spriteID: 3886cac2f2d6e7710800000000000000
+      internalID: 1692910559318272131
       vertices: []
       indices: 
       edges: []
@@ -458,8 +482,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3da7f4dfdea5a8d0800000000000000
-      internalID: -2835668113985917635
+      spriteID: 129260b2b835b6cd0800000000000000
+      internalID: -2563863705669981919
       vertices: []
       indices: 
       edges: []
@@ -479,21 +503,79 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f6be6d5ba1b5600800000000000000
-      internalID: 457989155405393694
+      spriteID: 44a5d286d4ebfc5d0800000000000000
+      internalID: -3040001983782233532
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
->>>>>>> master
+    - serializedVersion: 2
+      name: spr_sht_metalWall_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f540b60055c0e5500800000000000000
+      internalID: 386760177219208287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc82f5e38e381ff0800000000000000
+      internalID: -65233458377356033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_metalWall_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66b727a9d5e0530800000000000000
+      internalID: 3823096051611166428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 0c6d44437c5166b4ab4ba70c6923b7ce
     internalID: 0
     vertices: []
     indices: 

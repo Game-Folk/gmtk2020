@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: spr_sht_tile_blood_2
+  m_Name: spr_sht_metalWall_17
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -9222960127118269465, guid: 81588a986741bd442846894faa0c61ad,
+  m_Sprite: {fileID: 1553104766083159130, guid: 1782ad0ebfc5a9b428aaf9457a7c0a89,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
