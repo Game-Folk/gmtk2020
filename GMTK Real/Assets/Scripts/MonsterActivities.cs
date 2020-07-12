@@ -73,10 +73,10 @@ public class MonsterActivities : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-
+        Debug.Log("e");
         if (collision.gameObject.tag == "Guard")
         {
-  
+            Debug.Log("yes");
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }

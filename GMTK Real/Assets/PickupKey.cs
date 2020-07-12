@@ -24,6 +24,7 @@ public class PickupKey : MonoBehaviour
         {
             
             transform.LookAt(monster.transform);
+
             transform.position += new Vector3(transform.forward.x * MoveSpeed * Time.deltaTime, transform.forward.y * MoveSpeed * Time.deltaTime, 0);
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
