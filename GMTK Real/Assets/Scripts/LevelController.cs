@@ -26,6 +26,19 @@ public class LevelController : MonoBehaviour
 
     void Update(){
         if (Input.GetMouseButtonDown(0) && !playerMovement.isMoving()){ // left click
+            // check if object is layer "middle"
+            /*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Vector3 dir = (Camera.main.transform.position - Input.mousePosition).normalized;
+            Debug.DrawRay(Camera.main.transform.position, dir, Color.white, 5f);
+            RaycastHit hit;
+            print(Physics.Raycast(ray, out hit, Mathf.Infinity));
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity)) {
+                Debug.Log("Hit object: " + hit.collider.gameObject.name);
+                if(hit.collider.gameObject.layer == 9){ // 9 should be middle
+                    return;
+                }
+            }*/
+
             if(EventSystem.current.IsPointerOverGameObject()){
                 return;
             }
