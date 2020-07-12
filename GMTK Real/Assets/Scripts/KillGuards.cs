@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class KillGuards : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource _audioSource;
+    public GameObject bloodBoom;
+
+    public void PlayMusic()
     {
-        
+        _audioSource.Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StopMusic()
     {
-        
+        _audioSource.Stop();
     }
 
     void OnCollisionStay2D(Collision2D collision)
@@ -21,7 +22,8 @@ public class KillGuards : MonoBehaviour
 
         if (collision.gameObject.name == "Guardbutt")
         {
-            
+            PlayMusic();
+            Instantiate(bloodBoom, collision.gameObject.transform.position, Quaternion.identity);
             Destroy(collision.gameObject.transform.parent.gameObject);
         }
     }

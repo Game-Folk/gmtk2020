@@ -6,16 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class Spotting : MonoBehaviour
 {
+    public AudioSource _audioSource;
     public GameObject button;
+    public GameObject bloodBoom;
 
-
-  
-
-    // Start is called before the first frame update
-    void Start()
+    public void PlayMusic()
     {
-       
-    }   
+        _audioSource.Play();
+    }
+
+    public void StopMusic()
+    {
+        _audioSource.Stop();
+    }
 
     void OnCollisionStay2D(Collision2D collision)
     {
@@ -23,6 +26,8 @@ public class Spotting : MonoBehaviour
         if (collision.gameObject.name == "Monster")
         {
             Debug.Log("MONSTER SPOTTED");
+            PlayMusic();
+            Instantiate(bloodBoom, collision.gameObject.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
 
             
