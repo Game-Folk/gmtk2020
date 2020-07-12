@@ -21,7 +21,7 @@ public class KillGuards : MonoBehaviour
 
         if (collision.gameObject.name == "Guardbutt")
         {
-            Debug.Log("KILL GUARD");
+            
             Destroy(collision.gameObject.transform.parent.gameObject);
         }
     }

@@ -1,7 +1,121 @@
 fileFormatVersion: 2
 guid: 9acff1d2d21bfe04e99a3da8e2b8e442
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6038293806721219170
+    second: spr_sht_scuttler_0
+  - first:
+      213: 401036429185997528
+    second: spr_sht_scuttler_1
+  - first:
+      213: 1112616585070988184
+    second: spr_sht_scuttler_2
+  - first:
+      213: -4433026043618694339
+    second: spr_sht_scuttler_3
+  - first:
+      213: -7864884229107970939
+    second: spr_sht_scuttler_4
+  - first:
+      213: -7491809122338098817
+    second: spr_sht_scuttler_5
+  - first:
+      213: 1238850505893977453
+    second: spr_sht_scuttler_6
+  - first:
+      213: 2277996034587184572
+    second: spr_sht_scuttler_7
+  - first:
+      213: 8015431193600353430
+    second: spr_sht_scuttler_8
+  - first:
+      213: 5280123137640705398
+    second: spr_sht_scuttler_9
+  - first:
+      213: 5314371079788963779
+    second: spr_sht_scuttler_10
+  - first:
+      213: -1241197963901066469
+    second: spr_sht_scuttler_11
+  - first:
+      213: 5126062533166572883
+    second: spr_sht_scuttler_12
+  - first:
+      213: 2917995270518631079
+    second: spr_sht_scuttler_13
+  - first:
+      213: -3896687214392229404
+    second: spr_sht_scuttler_14
+  - first:
+      213: 554956945658838676
+    second: spr_sht_scuttler_15
+  - first:
+      213: 5395074317138925350
+    second: spr_sht_scuttler_16
+  - first:
+      213: -2255266748990599092
+    second: spr_sht_scuttler_17
+  - first:
+      213: 2228679566271505790
+    second: spr_sht_scuttler_18
+  - first:
+      213: -2106853744114040336
+    second: spr_sht_scuttler_0
+  - first:
+      213: 877868682445301521
+    second: spr_sht_scuttler_1
+  - first:
+      213: -7284417302433669745
+    second: spr_sht_scuttler_2
+  - first:
+      213: 3584243427868832266
+    second: spr_sht_scuttler_3
+  - first:
+      213: -1814335383336618212
+    second: spr_sht_scuttler_4
+  - first:
+      213: -8778871828094430326
+    second: spr_sht_scuttler_5
+  - first:
+      213: -6000719214327624925
+    second: spr_sht_scuttler_6
+  - first:
+      213: 3549956921163573327
+    second: spr_sht_scuttler_7
+  - first:
+      213: 7799275202657781283
+    second: spr_sht_scuttler_8
+  - first:
+      213: 8130273520840821829
+    second: spr_sht_scuttler_9
+  - first:
+      213: -1645720952926360885
+    second: spr_sht_scuttler_10
+  - first:
+      213: -4357221197764850437
+    second: spr_sht_scuttler_11
+  - first:
+      213: 7770955626627188667
+    second: spr_sht_scuttler_12
+  - first:
+      213: 5724782106247448300
+    second: spr_sht_scuttler_13
+  - first:
+      213: 3559842799471604713
+    second: spr_sht_scuttler_14
+  - first:
+      213: -2432148675771220352
+    second: spr_sht_scuttler_15
+  - first:
+      213: 6550020154163774285
+    second: spr_sht_scuttler_16
+  - first:
+      213: -6592726313452853935
+    second: spr_sht_scuttler_17
+  - first:
+      213: -1749331685040184945
+    second: spr_sht_scuttler_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,14 +154,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -71,9 +185,420 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_sht_scuttler_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1816caea3f2c2e0800000000000000
+      internalID: -2106853744114040336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117a7906ae0de2c00800000000000000
+      internalID: 877868682445301521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d5bb4de0d88ea90800000000000000
+      internalID: -7284417302433669745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0276a2586acdb130800000000000000
+      internalID: 3584243427868832266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c177cc4e49f22d6e0800000000000000
+      internalID: -1814335383336618212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a835fb5b59e2b2680800000000000000
+      internalID: -8778871828094430326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b0421faa929bca0800000000000000
+      internalID: -6000719214327624925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e4e5e20bf34130800000000000000
+      internalID: 3549956921163573327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3260ee779779c3c60800000000000000
+      internalID: 7799275202657781283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4b70f0b884d070800000000000000
+      internalID: 8130273520840821829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca286143893929e0800000000000000
+      internalID: -1645720952926360885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc8c6bf76a0883c0800000000000000
+      internalID: -4357221197764850437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7cf6a58faf7db60800000000000000
+      internalID: 7770955626627188667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce644639ef2827f40800000000000000
+      internalID: 5724782106247448300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3bcbe4a2a176130800000000000000
+      internalID: 3559842799471604713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e38bb5aa54f3ed0800000000000000
+      internalID: -2432148675771220352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43c49070a856ea50800000000000000
+      internalID: 6550020154163774285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a541095ee184a0800000000000000
+      internalID: -6592726313452853935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sht_scuttler_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8128dec91029b7e0800000000000000
+      internalID: -1749331685040184945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

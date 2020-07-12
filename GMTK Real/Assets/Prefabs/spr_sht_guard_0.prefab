@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5344101719955332148}
   m_Layer: 0
   m_Name: spr_sht_guard_0
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
