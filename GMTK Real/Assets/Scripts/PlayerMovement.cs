@@ -5,6 +5,7 @@ using Pathfinding;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 2.0f; // Speed of movement
+    public float distanceFromTargetToStop = 0.1f;
     public float checkSpeed = 0.1f;
     public LevelController levelController;
     public GhostMovement ghostMovement;
@@ -43,10 +44,8 @@ public class PlayerMovement : MonoBehaviour
         GameObject[] numbers = levelController.returnNumbers();
         int numOfNumbers = levelController.returnNumOfNumbers();
         for(int i = 0; i < numOfNumbers; i++){
-            print(i);
             aIDestinationSetter.target = numbers[i].transform;
-            print("set");
-            while(!aIPath.reachedEndOfPath){
+            while(Vector3.Distance (transform.position, numbers[i].transform.position) >= distanceFromTargetToStop){
                 yield return new WaitForSeconds(checkSpeed);
             }
         }
